@@ -1,0 +1,15 @@
+{
+  "name": "bwlogger",
+  "version": "1.0.0",
+  "description": "Blackwake Game Server Logger",
+  "main": "bwlogger.js",
+  "keywords": [],
+  "author": "GRNS",
+  "type": "commonjs",
+  "dependencies": {
+    "croner": "^9.0.0",
+    "dayjs": "^1.11.13",
+    "log-timestamp": "^0.3.0",
+    "tail": "^2.2.6"
+  }
+}
