@@ -103,7 +103,7 @@ const logRotate = new Cron(rotateTime, () => {
                 if (!logRegex.test(data)) {
 
                     logStream.write(`[${dayjs().toISOString()}] ${data}\n`);
-                    if (debug) console.log(`${data}`);
+                    if (debug) console.log(data);
                 }
             });
             console.log(`Logging 'output_log.txt' now!`);
