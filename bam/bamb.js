@@ -36,7 +36,7 @@ const apiKey = '' // MUST BE EDITED!
 //  NOTICE! It takes few seconds before the output is created after data fetching starts. This ensures that all data
 //  gets stored to the database on time.
 //
-const dbtest = true;
+const dbtest = false;
 //
 //  Set to 'true' if you want to see debug information in the console output. Default: false.
 //
