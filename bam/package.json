@@ -1,0 +1,17 @@
+{
+  "name": "bam",
+  "version": "1.0.0",
+  "description": "Blackwake Activity Monitor Backend",
+  "main": "bamb.js",
+  "keywords": [],
+  "author": "GRNS",
+  "type": "commonjs",
+  "dependencies": {
+    "croner": "^9.1.0",
+    "log-timestamp": "^0.3.0",
+    "node-fetch": "^3.3.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "steam-server-query": "^1.1.3"
+  }
+}
